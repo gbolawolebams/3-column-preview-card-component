@@ -1,0 +1,87 @@
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(31, 77%, 52%) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    padding-right: 5%;
+    padding-left: 2.5%;
+    height: 60vh;
+    width: 10vw;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid hsl(184, 100%, 22%);
+    padding-right: 5%;
+    padding-left: 2.5%;
+    height: 60vh;
+    width: 10vw;
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    padding-right: 5%;
+    padding-left: 2.5%;
+    height: 60vh;
+    width: 10vw;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+button.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    padding: 10%;
+}
+
+button.sedan:hover {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+} 
+
+button.suv {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    padding: 10%;
+    
+}
+
+button.suv:hover {
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+} 
+
+button.lux {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    padding: 10%;
+    
+}
+
+button.lux:hover {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+} 
